@@ -77,7 +77,8 @@ void matrix_init_user(void) {
 void encoder_update_user(uint8_t index, bool clockwise) {
   if (clockwise) {
         tap_code16(KC_VOLU);
-  } else {
+  } 
+  else {
        tap_code16(KC_VOLD);
   }
 }
