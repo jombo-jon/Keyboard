@@ -55,6 +55,8 @@
     M(O__CIRC__U,    0x00D4)\
     M(u__CIRC,   0x00FB)\
     M(U__CIRC__U,    0x00DB)\
+    M(u__UML,   0x00FC)\
+    M(U__UML__U,   0x00DC)\
     M(i__UML,    0x00EF)\
     M(I__UML__U, 0x00CF)\
     M(o__UML,   0x00F6)\
@@ -117,6 +119,7 @@ enum unicode_keycodes {
 #define U_CIRCU XP(u__CIRC, U__CIRC__U)
 #define I_UMLAU XP(i__UML ,  I__UML__U)
 #define O_UMLAU XP(o__UML ,  O__UML__U)
+#define U_UMLAU XP(u__UML ,  U__UML__U)
 #define C_CDILA XP(c__CDIL, C__CDIL__U)
 #define DED_CIR X(DED__CIR)
 #define DED_UML X(DED__UML)

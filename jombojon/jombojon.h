@@ -21,9 +21,8 @@ enum userspace_layers {
     _NUMBERS,
     _SYMBOLS,
     _NAV,
-    _GREEK,
+    _MEDIA,
     _ACCENTS,
-    _EMOJIS,
     _OPTIONS
 };
 
@@ -39,13 +38,13 @@ enum userspace_layers {
 #define HOME_S LALT_T(KC_S)
 #define HOME_D LCTL_T(KC_D)
 #define HOME_F LSFT_T(KC_F)
-/* #define HOME_G LT(_ACCENTS, KC_G) */
+#define HOME_G LT(_ACCENTS, KC_G)
 
 // Right-hand home row mods
 #define HOME_SCLN LGUI_T(KC_SCLN)
 #define HOME_L LALT_T(KC_L)
 #define HOME_K RCTL_T(KC_K)
 #define HOME_J RSFT_T(KC_J)
-/* #define H LT(_ACCENTS, KC_H) */
+#define HOME_H LT(_ACCENTS, KC_H)
 
 /* #define HOME_Z LT(_GREEK, KC_Z) */
