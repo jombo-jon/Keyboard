@@ -1,5 +1,5 @@
 
-ENCODER_ENABLE = no       # Enable the use of one or more encoders
+ENCODER_ENABLE = yes       # Enable the use of one or more encoders
 TAP_DANCE_ENABLE = yes     # Activate tap dance
 
 COMBO_ENABLE = yes 				 # Enable combos
@@ -15,4 +15,3 @@ DEFAULT_FOLDER = atreus44/default
 MCU = atmega32u4
 BOOTLOADER = atmel-dfu
 BOTLOADER = atmel-dfu     # Disable keyboard backlight (not RGB)
-SRC += features/achordion.c
